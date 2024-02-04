@@ -5,3 +5,4 @@ export default function Home() {
     <Button>Click Me</Button>
   );
 }
+// Hello! this is just to check a git error
