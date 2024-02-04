@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <Button>Click Me</Button>
+    <Button>Click Me Fast!</Button>
+    
   );
 }
-// Hello! this is just to check a git error
