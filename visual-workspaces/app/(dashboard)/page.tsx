@@ -7,3 +7,5 @@ const DashboardPage = () => {
 };
 
 export default DashboardPage;
+
+// checks
