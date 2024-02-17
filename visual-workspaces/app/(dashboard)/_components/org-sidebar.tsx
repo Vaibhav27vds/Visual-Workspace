@@ -17,7 +17,7 @@ const font = Poppins({
 export const OrgSidebar = () => {
 
     const searchParams = useSearchParams();
-    const favourites = searchParams.get("favourites");
+    const favorites = searchParams.get("favorites");
     return(
         <div className="hidden lg:flex flex-col space-y-6 w-[206px] pl-5 pt-5">
             <Link href="/">
@@ -60,7 +60,7 @@ export const OrgSidebar = () => {
             />
             <div className="space-y-1 w-full">
                 <Button
-                variant={favourites ? "ghost" : "secondary"}
+                variant={favorites ? "ghost" : "secondary"}
                 asChild
                 size="lg"
                 className="font-normal justify-start px-2 w-full"
@@ -71,17 +71,17 @@ export const OrgSidebar = () => {
                     </Link>
                 </Button>
                 <Button
-                variant={favourites ? "secondary" : "ghost"}
+                variant={favorites ? "secondary" : "ghost"}
                 asChild
                 size="lg"
                 className="font-normal justify-start px-2 w-full"
                 >
                     <Link href={{
                         pathname: "/",
-                        query:{ favourites: true }
+                        query:{ favorites: true }
                     }}>
                         <Star className="h-4 w-4 mr-2" />
-                        Favourite Boards
+                        Favorite Boards
                     </Link>
                 </Button>
             </div>
