@@ -13,6 +13,7 @@ const images = [
     "/placeholders/8.svg",
     "/placeholders/9.svg",
     "/placeholders/10.svg",
+    "/placeholders/11.svg",
 
 ];
 
