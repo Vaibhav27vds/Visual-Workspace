@@ -98,6 +98,7 @@ export const SelectionTools = memo(({
             )`
         }}
         >
+            {/* TODO: Add a font picker similar to ColorPicker */}
             <Colorpicker 
             onChange= {setFill}
             />

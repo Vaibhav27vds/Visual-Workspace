@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "convex": "^1.8.0"
+    "convex": "^1.8.0",
+    "react-contenteditable": "^3.3.7"
   }
 }
