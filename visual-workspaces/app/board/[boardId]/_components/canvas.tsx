@@ -167,7 +167,7 @@ export const Canvas = ({
     origin: Point,
   ) => {
     if (
-      Math.abs(current.x - origin.x) + Math.abs(current.y - origin.y) > 5
+      Math.abs(current.x - origin.x) + Math.abs(current.y - origin.y) > 20
     ) {
       setCanvasState({
         mode: CanvasMode.SelectionNet,
