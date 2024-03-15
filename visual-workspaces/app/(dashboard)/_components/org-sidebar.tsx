@@ -32,7 +32,7 @@ export const OrgSidebar = () => {
                         "font-semibold text-xl",
                         font.className,
                     )}>
-                       Visual Workspaces
+                       Catalyst
                     </span>
                 </div>
             </Link> 

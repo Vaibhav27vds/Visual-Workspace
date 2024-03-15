@@ -60,7 +60,7 @@ export const Info = ({
             <span className={cn(
                 "font-semibold text-xl ml-2 text-black"
             )}>
-                Visual Workspace
+                Catalyst
             </span>
             </div>
             </Link>
