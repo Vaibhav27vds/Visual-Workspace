@@ -8,6 +8,8 @@ import { OrganizationSwitcher } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import { LayoutDashboard, Star } from "lucide-react";
 import { useSearchParams,  } from "next/navigation";
+import { useDarkMode } from "usehooks-ts";
+import { text } from "stream/consumers";
 
 const font = Poppins({
     subsets: ["latin"],
@@ -53,8 +55,9 @@ export const OrgSidebar = () => {
                         border:  "1px solid #E5E7EB",
                         justifyContent: "space-between",
                         backgroundColor: "white",
-                    }
+                    },
                 }
+                
             }}
             
             />

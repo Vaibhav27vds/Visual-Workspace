@@ -3,6 +3,7 @@
 import { UserButton, OrganizationSwitcher, useOrganization } from "@clerk/nextjs";
 import { SearchInput } from "./search-input";
 import { InviteButton } from "./invite-button";
+import { ModeToggle } from "@/components/mode-toggle";
 
 export const Navbar = () => {
     const { organization } = useOrganization();
@@ -39,6 +40,7 @@ export const Navbar = () => {
             {organization && (
             <InviteButton />
             )}
+            <ModeToggle />
             <UserButton />
             </div>
     );
